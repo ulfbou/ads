@@ -1,5 +1,12 @@
-.dx/
+.dx/*
+!.dx/.gitkeep
 **/bin/
 **/obj/
-TestResults/
 artifacts/
+TestResults/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+.dx/
