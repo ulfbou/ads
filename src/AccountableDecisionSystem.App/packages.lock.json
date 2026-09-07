@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dependencies": {
+    "net10.0": {
+      "accountabledecisionsystem.application": {
+        "type": "Project",
+        "dependencies": {
+          "AccountableDecisionSystem.Domain": "[1.0.0, )"
+        }
+      },
+      "accountabledecisionsystem.domain": {
+        "type": "Project"
+      },
+      "accountabledecisionsystem.host.mcp": {
+        "type": "Project",
+        "dependencies": {
+          "AccountableDecisionSystem.Application": "[1.0.0, )",
+          "AccountableDecisionSystem.Domain": "[1.0.0, )"
+        }
+      },
+      "accountabledecisionsystem.infrastructure": {
+        "type": "Project",
+        "dependencies": {
+          "AccountableDecisionSystem.Application": "[1.0.0, )",
+          "AccountableDecisionSystem.Domain": "[1.0.0, )"
+        }
+      }
+    }
+  }
+}

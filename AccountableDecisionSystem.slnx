@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AccountableDecisionSystem.App/AccountableDecisionSystem.App.csproj" />
+    <Project Path="src/AccountableDecisionSystem.Application/AccountableDecisionSystem.Application.csproj" />
+    <Project Path="src/AccountableDecisionSystem.Domain/AccountableDecisionSystem.Domain.csproj" />
+    <Project Path="src/AccountableDecisionSystem.Host.Mcp/AccountableDecisionSystem.Host.Mcp.csproj" />
+    <Project Path="src/AccountableDecisionSystem.Infrastructure/AccountableDecisionSystem.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AccountableDecisionSystem.App.Tests/AccountableDecisionSystem.App.Tests.csproj" />
+    <Project Path="tests/AccountableDecisionSystem.Application.Tests/AccountableDecisionSystem.Application.Tests.csproj" />
+    <Project Path="tests/AccountableDecisionSystem.Architecture.Tests/AccountableDecisionSystem.Architecture.Tests.csproj" />
+    <Project Path="tests/AccountableDecisionSystem.Conformance.Tests/AccountableDecisionSystem.Conformance.Tests.csproj" />
+    <Project Path="tests/AccountableDecisionSystem.Domain.Tests/AccountableDecisionSystem.Domain.Tests.csproj" />
+    <Project Path="tests/AccountableDecisionSystem.Host.Mcp.Tests/AccountableDecisionSystem.Host.Mcp.Tests.csproj" />
+    <Project Path="tests/AccountableDecisionSystem.Infrastructure.Tests/AccountableDecisionSystem.Infrastructure.Tests.csproj" />
+  </Folder>
+</Solution>
