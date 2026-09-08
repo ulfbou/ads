@@ -1,0 +1,3 @@
+[submodule "external/dx-domain"]
+	path = external/dx-domain
+	url = https://github.com/ulfbou/Dx.Domain.git

@@ -1,9 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\external\dx-domain\src\Dx.Domain.Kernel\Dx.Domain.Kernel.csproj" />
+    <ProjectReference Include="..\..\external\dx-domain\src\Dx.Domain.Primitives\Dx.Domain.Primitives.csproj" />
+    <ProjectReference Include="..\..\external\dx-domain\src\Dx.Domain.Annotations\Dx.Domain.Annotations.csproj" />
+  </ItemGroup>
 </Project>
