@@ -153,7 +153,27 @@
         }
       },
       "accountabledecisionsystem.domain": {
+        "type": "Project",
+        "dependencies": {
+          "Dx.Domain.Annotations": "[1.0.0, )",
+          "Dx.Domain.Kernel": "[1.0.0, )",
+          "Dx.Domain.Primitives": "[1.0.0, )"
+        }
+      },
+      "dx.domain.annotations": {
         "type": "Project"
+      },
+      "dx.domain.kernel": {
+        "type": "Project",
+        "dependencies": {
+          "Dx.Domain.Annotations": "[1.0.0, )"
+        }
+      },
+      "dx.domain.primitives": {
+        "type": "Project",
+        "dependencies": {
+          "Dx.Domain.Annotations": "[1.0.0, )"
+        }
       },
       "xunit.analyzers": {
         "type": "CentralTransitive",
